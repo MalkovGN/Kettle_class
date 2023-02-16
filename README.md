@@ -11,5 +11,5 @@
 
 Ведется запись в БД SQLite (через Django ORM). Для просмотра через панель администратора:
   1. python3 manage.py createsuperuser;
-  2. python manage.py runserver;
+  2. python3 manage.py runserver;
   3. Перейти localhost:8000/admin, можно просматривать логи в БД.
