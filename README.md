@@ -4,9 +4,11 @@
   2. Создать и активировать виртуальное окружение;
   3. Перейти в директорию Kettle_class;
   4. Установить зависимости (pip install -r requirements.txt);
-  5. Осуществить миграции в БД SQLite (pyton3 manage.py migrate);
+  5. Осуществить миграции в БД SQLite (pyton3 manage.py migrate).
+  
 После запуска команды python3 manage.py start_boiling начнет исполнятся программа (задать свои параметры для исполнения можно в файле config.ini).
 Производится логирование в консоль, также логирование в файл, которые создастся в текущей директории.
+
 Ведется запись в БД SQLite (через Django ORM). Для просмотра через панель администратора:
   1. python3 manage.py createsuperuser;
   2. python manage.py runserver;
